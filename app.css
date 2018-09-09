@@ -1,0 +1,573 @@
+@font-face { font-family: SFlight; src:url('SF Pro/SF-Pro-Text-Light.otf'); }
+@font-face { font-family: SFmed; src:url('SF Pro/SF-Pro-Text-Medium.otf'); }
+@font-face { font-family: SFultralight; src:url('SF Pro/SF-Pro-Display-Ultralight.otf'); }
+
+
+/*HOME PAGE SECTION*/
+
+body{
+	/*background-color: yellow;*/
+}
+
+#homepage{
+	text-align: center;
+}
+
+#logo{
+	width: 700px;
+	margin-bottom: 180px;
+	margin-top: 50px;
+}
+
+.homePageButton{
+	background-color: #3762F5; /* powerBlue */
+    border: none;
+    color: white;
+    padding: 35px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 50px;
+    font-family: SFultralight;
+    border-radius: 45pt;
+    width: 779px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 50%;
+    letter-spacing: 2.2px;
+    transform: translateX(-50%);
+}
+
+#help{
+	font-family: SFultralight;
+	font-size: 40px;
+	color: #808080;
+	display: block;
+	margin-top: 200px;
+}
+
+button{
+	display: block;
+}
+
+
+
+/*SIGN IN PAGE SECTION*/
+
+#signInPage{
+	text-align: center;
+}
+
+#titleSignIn{
+	font-family: SFmed;
+	font-size: 140px;
+	color: black;
+	display: block;
+	text-align: left;
+	padding-left: 100px;
+	margin-bottom: 100px;
+	margin-top: 240px;
+}
+
+
+.signInInput{
+	background-color: #F2F2F2;
+	border: none;
+	color: #5B5B5B;
+	padding: 35px 37px;
+	text-align: left;
+	text-decoration: none;
+	font-size: 45px;
+	font-family: SFultralight;
+	border-radius: 45pt;
+	width: 715px;
+	margin-top: 18px;
+	margin-bottom: 18px;
+	margin-left: 50%;
+	letter-spacing: 2.2px;
+	transform: translateX(-50%);
+	display: block;
+
+}
+
+.signInSubmitButton{
+	background-color: #3762F5;
+	border: none;
+	color: white;
+	padding: 35px 37px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 45px;
+	font-family: SFultralight;
+	border-radius: 45pt;
+	width: 300px;
+	margin-bottom: 18px;
+	margin-top: 18px;
+	margin-left: 50%;
+	letter-spacing: 2.2px;
+	transform: translateX(-50%); 
+	display: block;
+
+}
+
+#forget{
+	font-size: 35px;
+	font-family: SFultralight;
+	text-align: center;
+	letter-spacing: 2.2px;
+	display: block;
+	margin-bottom: 200px;
+
+}
+
+#fingerprint{
+	width: 300px;
+
+}
+
+/*PATIENT PAGE SECTION*/
+
+#patientPage{
+	text-align: center;
+}
+
+#logo{
+	width: 700px;
+	margin-bottom: 180px;
+	margin-top: 50px;
+}
+
+.patientPageButton{
+	background-color: #3762F5; /* powerBlue */
+    border: none;
+    color: white;
+    padding: 35px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 50px;
+    font-family: SFultralight;
+    border-radius: 45pt;
+    width: 779px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 50%;
+    letter-spacing: 2.2px;
+    transform: translateX(-50%);
+}
+
+#tutorial{
+	font-family: SFultralight;
+	font-size: 40px;
+	color: #808080;
+	display: block;
+	margin-top: 200px;
+}
+
+
+/*SCAN PAGE SECTION*/
+
+#scanPage{
+	text-align: center;
+	width: 855px;
+	height: 1500px;
+	margin-top:	100px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	border-radius: 45pt;
+	box-shadow: 0px 20px 55px #BFC0C1;
+}
+
+#scanTriageTag{
+	font-size: 80px;
+	font-family: SFmed;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 10px;
+}
+
+
+#scan{
+	width:700px;
+}
+
+#scanning{
+	font-size: 50px;
+	font-family: SFmed;
+	text-align: center;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	padding-bottom: 50px;
+	/*padding-top: 10px;
+	padding-bottom: 10px;*/
+}
+
+#cancelMe{
+	background-color: #3762F5;
+	border: none;
+	color: white;
+	padding: 35px 37px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 45px;
+	font-family: SFultralight;
+	border-radius: 45pt;
+	width: 300px;
+	margin-bottom: 18px;
+	margin-top: 18px;
+	margin-left: 50%;
+	letter-spacing: 2.2px;
+	transform: translateX(-50%); 
+	display: block;
+}
+
+
+/*SCAN VERIFIED PAGE SECTION*/
+
+#scanPageVerified{
+	text-align: center;
+	width: 855px;
+	height: 1500px;
+	margin-top:	100px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	border-radius: 45pt;
+	box-shadow: 0px 20px 55px #BFC0C1;
+}
+
+#scanned{
+	font-size: 80px;
+	font-family: SFmed;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 10px;
+}
+
+#scanIcon{
+	width:700px;
+}
+
+#checkMark{
+	width:250px;
+	padding-top: 50px;
+}
+
+
+
+/*NEW PATIENT INFO SECTION*/
+	/*PATIENT INFORMATION SECTION*/
+	#background{
+		background-color: white;
+	}
+
+	#newPtTitle{
+		font-size: 80px;
+		font-family: SFmed;
+		text-align: left;
+		padding-left: 50px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	#patientInformation{
+		text-align: left;
+		padding-left: 50px;
+		width: 855px;
+		/*height: 700px;*/
+		/*margin-top:	400px;*/
+		margin-left: 50%;
+		transform: translateX(-50%);
+		border-radius: 45pt;
+		box-shadow: 0px 20px 55px #BFC0C1;
+		display: block;
+		padding-bottom: 20px;
+	}
+
+	#patientInfoText{
+		font-size: 40px;
+		font-family: SFlight;
+		text-align: left;
+		padding-top: 20px;
+		/*padding-left: 50px;*/
+	}
+
+	form{
+		font-size: 35px;
+		font-family: SFultralight;
+	}
+
+		input[type=checkbox]{
+	  /* Double-sized Checkboxes */
+	  -ms-transform: scale(3); /* IE */
+	  -moz-transform: scale(3); /* FF */
+	  -webkit-transform: scale(3); /* Safari and Chrome */
+	  -o-transform: scale(3); /* Opera */
+	  float: left;
+	  /*position: absolute;*/
+	  margin-left: 30px;
+	  margin-right: 20px;
+	  padding-left: 20px;
+	}
+
+
+	#checks{
+		/*display: block;*/
+		position: absolute;
+		top: 130px;
+		left: 180px;
+	}
+
+	.newPtCheck{
+		font-size: 35px;
+		font-family: SFultralight;
+	}
+
+	#genderInputM{
+		font-size: 35px;
+		font-family: SFultralight;
+	}
+
+	.newPtText{
+		background-color: #F2F2F2;
+		border: none;
+		color: #5B5B5B;
+		padding: 15px 17px;
+		text-align: left;
+		text-decoration: none;
+		font-size: 25px;
+		font-family: SFultralight;
+		border-radius: 45pt;
+		/*width: 715px;*/
+		margin-top: 4px;
+		margin-bottom: 4px;
+		margin-left: 50%;
+		letter-spacing: 2.2px;
+		transform: translateX(-50%);
+		/*display: block;*/
+	}
+
+	#ageInput{
+		width: 200px;
+		float: right;
+	}
+
+	#weightInput{
+		width: 200px;
+		float: right;
+	}
+
+	#numberInput{
+		width: 590px;
+	}
+
+	#nameInput{
+		width: 590px;
+	}
+
+	#addressInput{
+		width: 590px;
+	}
+
+	#cityInput{
+		
+
+	}
+
+	#stateInput{
+		width: 150px;
+		
+	}
+
+	#zipInput{
+		width: 590px;
+	}
+
+	.saveButton{
+		background-color: #3762F5;
+		border: none;
+		color: white;
+		padding: 25px 37px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 45px;
+		font-family: SFultralight;
+		border-radius: 45pt;
+		width: 250px;
+		margin-bottom: 18px;
+		margin-top: 38px;
+		margin-left: 50%;
+		letter-spacing: 2.2px;
+		transform: translateX(-50%); 
+		display: block;
+	}
+
+	/*TRIAGE CLASSIFICATION SECTION*/
+
+	#triageClassification{
+		text-align: left;
+		padding-left: 50px;
+		width: 855px;
+		/*height: 700px;*/
+		/*margin-top:	400px;*/
+		margin-left: 50%;
+		margin-top: 50px;
+		transform: translateX(-50%);
+		border-radius: 45pt;
+		box-shadow: 0px 20px 55px #BFC0C1;
+		display: block;
+		padding-bottom: 20px;
+	}
+
+	#triageClassText{
+		font-size: 40px;
+		font-family: SFlight;
+		text-align: left;
+		padding-top: 20px;
+	}
+
+	.triageButton{
+		background-color: grey; 
+		border: none;
+		color: white;
+		padding: 35px 37px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 45px;
+		font-family: SFultralight;
+		border-radius: 45pt;
+		width: 600px;
+		margin-bottom: 18px;
+		margin-top: 18px;
+		margin-left: 50%;
+		letter-spacing: 2.2px;
+		transform: translateX(-50%); 
+		display: block;
+	}
+
+	#immediateButton{
+		background-color: #EA4F37;
+	}
+
+	#delayedButton{
+		background-color: #FDF94F;
+		color: black;
+	}
+
+	#minorButton{
+		background-color: #1BBB1F;
+	}
+
+	#expectantButton{
+		background-color: black;	
+	}
+
+	#classGuide{
+		text-decoration: underline;
+		font-family: SFultralight;
+		font-size: 40px;
+		color: #808080;
+		display: block;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	/*INJURY INFORMATION SECTION*/
+
+	#injuryInformation{
+		text-align: left;
+		padding-left: 50px;
+		width: 800px;
+		padding-right: 55px;
+		height: 720px;
+		/*margin-top:	400px;*/
+		margin-left: 50%;
+		margin-top: 50px;
+		transform: translateX(-50%);
+		border-radius: 45pt;
+		box-shadow: 0px 20px 55px #BFC0C1;
+		display: block;
+		padding-bottom: 20px;
+	}
+
+	#injuryInfoText{
+		font-size: 40px;
+		font-family: SFlight;
+		text-align: left;
+		padding-top: 20px;
+	}
+
+	.injuryButton{
+		background-color: white;
+		border-color: : #F2F2F2;
+		border-width: thin;
+		border-radius: 45pt; 
+		color: ##F2F2F2;
+		padding: 15px 17px;
+		text-align: left;
+		text-decoration: none;
+		font-size: 25px;
+		font-family: SFultralight;
+		border-radius: 10pt;
+		/*width: 715px;*/
+		margin-top: 4px;
+		margin-bottom: 4px;
+		/*margin-left: 50%;*/
+		letter-spacing: 2.2px;
+		/*transform: translateX(-50%);*/
+		/*display: block;*/
+		float: left;
+	}
+
+	#othercomment{
+		position: absolute;
+		top: 260px;
+	}
+
+	#otherTxt{
+		background-color: #F2F2F2;
+		border: none;
+		color: #5B5B5B;
+		padding: 15px 17px;
+		text-align: left;
+		text-decoration: none;
+		font-size: 25px;
+		font-family: SFultralight;
+		border-radius: 45pt;
+		width: 415px;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		/*margin-left: 50%;*/
+		letter-spacing: 2.2px;
+		/*transform: translateX(-50%);*/
+		display: inline-block;
+	}
+
+	#commentsTxt{
+		background-color: #F2F2F2;
+		border: none;
+		color: #5B5B5B;
+		padding: 15px 17px;
+		vertical-align: top;
+		text-align: left;
+		text-decoration: none;
+		font-size: 25px;
+		font-family: SFultralight;
+		border-radius: 45pt;
+		height: 350px;
+		width: 415px;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		/*margin-left: 50%;*/
+		letter-spacing: 2.2px;
+		/*transform: translateX(-50%);*/
+		display: block;
+
+	}
+
+	#people{
+		/*float: right;*/
+		position: absolute;
+		right: 20px;
+		top: 260px;
+	}
+	

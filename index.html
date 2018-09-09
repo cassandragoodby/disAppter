@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Command Interface</title>
+	<link rel="stylesheet" type="text/css" href="command.css">
+	<script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyDLW06DN2WLUwCDaWmmdxKVTUKdRqLDtLk",
+	    authDomain: "disappter.firebaseapp.com",
+	    databaseURL: "https://disappter.firebaseio.com",
+	    projectId: "disappter",
+	    storageBucket: "disappter.appspot.com",
+	    messagingSenderId: "715140057176"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="leaflet/leaflet.css">
+	<script type="text/javascript" src="leaflet/leaflet.js"></script>
+	
+</head>
+<body>
+	<div id="ptscount" class="box">
+		<div id="redcount" class="countbox">
+			<p class="counttitle">Immediate #</p>
+			<p id="rednum" class="countnum"></p>
+		</div>
+		<div id="yellowcount" class="countbox">
+			<p class="counttitle">Delayed #</p>
+			<p id="yellownum" class="countnum"></p>
+		</div>
+		<div id="greencount" class="countbox">
+			<p class="counttitle">Minor #</p>
+			<p id="greennum" class="countnum"></p>
+		</div>
+		<div id="blackcount" class="countbox">
+			<p class="counttitle">Expectant #</p>
+			<p id="blacknum" class="countnum"></p>
+		</div>
+		<div id="unspecifiedcount" class="countbox">
+			<p class="counttitle">Unspecified #</p>
+			<p id="unspecifiednum" class="countnum"></p>
+		</div>
+	</div>
+	 <div id="mapid" class="box"></div>
+	 <div id="currentpts" class="box">
+	 	<div id="currentlist">
+	 		<p id="listtitle">Current Patients</p>
+	 		<table id="patientTableHeader">
+	 			<tr>
+	 				<th>ID</th>
+    				<th>Age</th>
+    				<th>Gender</th>
+    				<th>Status</th>
+  				</tr>
+  				
+	 		</table>
+	 		<div class="scrollablept">
+		 		<table id="patientTable">
+		 			
+	  				
+		 		</table>
+		 	</div>
+	 	</div>
+	 </div>
+	 <div id="hospitals" class="box">
+	 	<div id="hosp1" class="hospbox">
+	 		<p id="Hospital1" class="hospitaltitle"></p>
+			<p id="hospital1pts" class="ptsnum"></p>
+	 	</div>
+	 	<div id="hosp2" class="hospbox">
+	 		<p id="Hospital2" class="hospitaltitle"></p>
+			<p id="hospital2pts" class="ptsnum"></p>
+	 	</div>
+	 	<div id="hosp3" class="hospbox">
+	 		<p id="Hospital3" class="hospitaltitle"></p>
+			<p id="hospital3pts" class="ptsnum"></p>
+	 	</div>
+	 	<div id="hosp4" class="hospbox">
+	 		<p id="Hospital4" class="hospitaltitle"></p>
+			<p id="hospital4pts" class="ptsnum"></p>
+	 	</div>
+	 </div>
+	 <div id="totalstaff" class="box">
+	 	<div id="totalstaffnum">
+	 		<p id="stafftitle">Staff Checked In</p>
+			<p id="staffnum"></p>
+			<table id="stafflistheader">
+				<tr>
+	 				<th>ID</th>
+    				<th>Name</th>
+    				<th>Dept.</th>
+  				</tr>
+			</table>
+			<div class="scrollablestaff">
+				<table id="stafflist">
+					
+				</table>
+			</div>
+	 	</div>
+	 </div>
+	
+</body>
+
+<script type="text/javascript" src="command.js"></script>
+	
+</html>

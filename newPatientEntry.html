@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+	<title>New Patient Entry</title>
+	<link rel="stylesheet" type="text/css" href="app.css">
+
+</head>
+<body>
+	
+	<div id="background">
+		<p id="newPtTitle">New Patient</p>
+		<div id="patientInformation">
+			<p id="patientInfoText">Patient Information</p>
+			<form>
+				<div id="checks">
+				<input class="newPtCheck" id="genderInputM" type="checkbox" name="gender" value="male">Male<br>
+				<input class="newPtCheck" id="genderInputF" type="checkbox" name="gender" value="female">Female<br>
+			</div>
+				<input class="newPtText" id="ageInput" type="text" name="age" placeholder="Age"><br>
+				<input class="newPtText" id="weightInput" type="text" name="weight" placeholder="Weight"><br>
+				<input class="newPtText" id="numberInput" type="text" name="ptnumber" placeholder="Patient Number"><br>
+				<input class="newPtText" id="nameInput" type="text" name="name" placeholder="Name"><br>
+				<input class="newPtText" id="addressInput" type="text" name="address" placeholder="Address"><br>
+				<!-- <input class="newPtText" id="cityInput" type="text" name="city" placeholder="City"><br>
+				<input class="newPtText" id="stateInput" type="text" name="state" placeholder="State"><br> -->
+				<input class="newPtText" id="zipInput" type="text" name="zip" placeholder="Zip Code">
+			</form>
+			
+		
+		</div>
+
+		<div id="triageClassification">
+			<p id="triageClassText">Triage Classification</p>
+			<button id="immediateButton" class="triageButton" type="button">Immediate</button>
+			<button id="delayedButton" class="triageButton" type="button">Delayed</button>
+			<button id="minorButton" class="triageButton" type="button">Minor</button>
+			<button id="expectantButton" class="triageButton" type="button">Expectant</button>
+			<p id="classGuide">Classification Guidelines</p>
+		
+		</div>
+
+		<div id="injuryInformation">
+			<p id="injuryInfoText">Injury Information</p>
+
+			<button id="headInjuryButton" class="injuryButton" type="button" onclick="changecss(this.id)" style="background-color: white">Head Injury</button>
+			<button id="cSpineButton" class="injuryButton" type="button" onclick="changecss(this.id)" style="background-color: white">C-Spine</button>
+			<button id="bluntTraumaButton" class="injuryButton" type="button" onclick="changecss(this.id)" style="background-color: white">Blunt Trauma</button><button id="penetratingTraumaButton" class="injuryButton" type="button" onclick="changecss(this.id)" style="background-color: white">Penetrating Trauma</button>
+			<button id="burnButton" class="injuryButton" type="button" onclick="changecss(this.id)" style="background-color: white">Burn</button>
+			<button id="fractureButton" class="injuryButton" type="button" onclick="changecss(this.id)" style="background-color: white">Fracture</button>
+			<button id="lacerationButton" class="injuryButton" type="button" onclick="changecss(this.id)" style="background-color: white">Laceration</button>
+			<button id="amputationButton" class="injuryButton" type="button" onclick="changecss(this.id)" style="background-color: white">Amputation</button>
+			<button id="hazMatButton" class="injuryButton" type="button" onclick="changecss(this.id) style="background-color: white"">Haz-Mat Contamination</button>
+
+			<form id="othercomment">
+				<input id="otherTxt" type="text" name="other" placeholder="Other...">
+				<input id="commentsTxt" type="text" name="comments" placeholder="Comments">
+			</form>
+
+			<img id="people" src="peopleOutlines.png" alt="People">
+		
+
+
+		</div>
+		<button class="saveButton" type="button" onclick="location.href = 'patientpage.html'"">Save</button>
+	</div>
+
+</body>
+<script type="text/javascript" src="newpatient.js"></script>
+</html>

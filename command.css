@@ -1,0 +1,240 @@
+@font-face { font-family: SFlight; src: url('SF Pro/SF-Pro-Text-Light.otf'); } 
+@font-face { font-family: SFmed; src: url('SF Pro/SF-Pro-Text-Medium.otf'); } 
+
+body{
+	font-family: SFlight;
+	/*background-color: #3762f5;*/
+}
+
+#mapid { 
+	height: 75vh;
+	width: 64%;
+	float: left;
+	margin: 10px;
+	}
+
+#ptscount{
+	height: 75vh;
+	width: 10%;
+	float: left;
+	margin: 10px;
+	display: table-cell;
+	vertical-align: center;
+}
+
+#hospitals{
+	width: 76%;
+	height: 15vh;
+	float: left;
+	margin: 10px;
+}
+
+#currentpts{
+	width: 20%;
+	float: left;
+	height: 50vh;
+	margin: 10px;
+}
+
+#totalstaff{
+	width: 20%;
+	height: 40vh;
+	float: left;
+	margin: 10px;
+	margin-top: -145px;
+}
+
+.box{
+	border: 0px solid red;
+    border-radius: 15px;
+    background-color: #e9e1d9;
+}
+
+.countbox{
+	width: 80%;
+	height: 18%;
+	margin: 8px auto;
+	border: 0px solid red;
+    border-radius: 15px;
+    /*margin-left: 50%;*/
+    /*transform: translateX(-50%);*/
+}
+
+#redcount{
+	background-color: #ea4f37;
+}
+
+
+#yellowcount{
+	background-color: #FDDE4F;
+}
+
+#greencount{
+	background-color: #1BBB1f;
+}
+
+#blackcount{
+	background-color: #272323;
+}
+
+#unspecifiedcount{
+	background-color: #666666;
+}
+
+.hospbox{
+	width: 23%;
+	height: 80%;
+	margin: 8px;
+	border: 0px solid red;
+    border-radius: 15px;
+    background-color: #d9ccbe;
+    float: left;
+}
+
+#totalstaffnum{
+	width: 85%;
+	height: 85%;
+	margin: 8px auto;
+	border: 0px solid red;
+    border-radius: 15px;
+    background-color: #d9ccbe;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 2.5%;
+}
+
+#currentlist{
+	width: 85%;
+	height: 85%;
+	margin: 5% auto;
+	border: 0px solid red;
+    border-radius: 15px;
+    background-color: #d9ccbe;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 2.5%;
+}
+
+.counttitle{
+	text-align: center;
+	color: white;
+	position: relative;
+	margin: 8px auto; 
+	line-height: 45px;
+	font-size: 13px;
+	
+}
+
+.countnum{
+	text-align: center;
+	color: white;
+	position: relative;
+	margin: 8px auto; 
+	line-height: 10px;
+	font-size: 30px;
+	font-family: SFmed;
+}
+
+.hospitaltitle{
+	text-align: center;
+	color: black;
+	position: relative;
+	margin: 8px auto; 
+	line-height: 20px;
+	font-size: 13px;
+	font-family: SFmed;
+}
+
+.ptsnum{
+	text-align: center;
+	color: black;
+	position: relative;
+	margin: 8px auto; 
+	line-height: 20px;
+	font-size: 30px;
+}
+
+#stafftitle{
+	text-align: center;
+	color: black;
+	position: relative;
+	margin: 8px auto; 
+	line-height: 20px;
+	font-size: 15px;
+	font-family: SFmed;
+}
+
+#staffnum{
+	text-align: center;
+	color: black;
+	position: relative;
+	margin: 8px auto; 
+	line-height: 20px;
+	font-size: 30px;
+}
+
+#listtitle{
+	text-align: center;
+	color: black;
+	position: relative;
+	margin: 8px auto; 
+	line-height: 20px;
+	font-size: 15px;
+	font-family: SFmed;
+}
+
+table {
+    /*font-family: arial, sans-serif;*/
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+	font-size: 12px;
+    /*border: 1px solid grey;*/
+    text-align: left;
+ 	width: 25%;
+ 	padding: 5px 5px;
+    /*margin: 2px;*/
+}
+
+tr:nth-child(even) {
+    background-color: #e9e1d9;
+}
+
+td{
+	/*width: 20%;*/
+	/*padding: 5px 0px;*/
+
+}
+
+.scrollablept{
+	height: 35vh;
+	overflow: auto;
+}
+
+.scrollablestaff{
+	height: 20vh;
+	overflow: auto;
+}
+
+button{
+	margin-top: 5px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	width: 100px;
+}
+
+.blinking{
+	animation: fading 1s infinite alternate;
+}
+
+@keyframes fading { 
+  from { opacity: 0.2; 
+		width: 6;
+  } 
+}
